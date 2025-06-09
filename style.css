@@ -120,14 +120,15 @@ main{
 .ver-news{
     border: 2px solid black;
     padding-block: 1rem;
-    width: 536px;
+    width: 366px;
     background-color:hsl(240, 100%, 5%) ;
 }
 .ver-news>h1{
     color: hsl(35, 77%, 62%);
     font-family: inter-bold,sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-inline: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 .ver-news>.updates{
     display: flex;
@@ -138,7 +139,7 @@ main{
 }
 .ver-news>.updates>p:nth-child(1){
     font-family: inter-bold,sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     a{
         text-decoration: none;
         color: white;
@@ -153,13 +154,12 @@ main{
 .ver-news>.updates>p:nth-child(2){
     font-family: inter-regular,sans-serif;
     color: white;
-    font-size: 1.2rem;
-    width: 400px;
+    font-size: 1rem;
+
 }
 .ver-news>hr{
     border: 1px solid white;
-    margin-block: 1.2rem;
-    width: 400px;
+    margin-block: 1.5rem;
     margin-inline: 1.5rem;
 }
 .body2{
@@ -203,11 +203,11 @@ main{
     }
 }
 .body2>.gadgets>article>p:nth-child(3){
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: hsl(236, 13%, 42%);
     font-family: inter-bold,sans-serif;
-    line-height: 1.5rem;
-    width: 82%;
+    line-height: 1.4rem;
+    width: 80%;
 }
 
 
